@@ -105,6 +105,12 @@ li li:last-child {
   padding-bottom: 0;
 }
 
+code {
+  font-family:  Monaco, Menlo, Consolas, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 85%;
+  color: pink;
+}
+
 /* Responsive Media */
 img,
 video,
