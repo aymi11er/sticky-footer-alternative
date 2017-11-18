@@ -20,17 +20,18 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
-body {
-  color: #222;
-  background-color: #EEE;
-}
 
 /* Begin styles for sticky-footer alternative */
 
 html,
 footer {
-  color: #EEE;
-  background-color: #222;
+  color: #CCC;
+  background-color: #222; /* Background color on html covers the entire viewport */
+}
+
+body {
+  color: #222;
+  background-color: #EEE; /* Background color on body covers only the content areas */
 }
 
 header,
